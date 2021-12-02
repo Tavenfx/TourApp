@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="140sp"
+        android:contentDescription="TODO"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/treasure"
+        tools:ignore="ContentDescription,HardcodedText,RtlHardcoded,ImageContrastCheck" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/EmailV"
+        android:layout_width="132dp"
+        android:layout_height="31dp"
+        android:text="Email"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="314dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:background="@color/white"
+        tools:ignore="Autofill,LabelFor,RtlHardcoded,TextFields" />
+
+    <TextView
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/PasswordV"
+        android:layout_width="132dp"
+        android:layout_height="31dp"
+        android:text="Password"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,RtlHardcoded">
+    </TextView>
+
+    <EditText
+        android:layout_marginLeft="20sp"
+        android:id="@+id/Password"
+        android:layout_width="314dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        tools:ignore="Autofill,LabelFor,RtlHardcoded,TextFields" />
+
+    <Button
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7C6565"
+        android:text="Login"
+        android:id="@+id/LogBtn"
+        android:layout_marginStart="110sp"
+        tools:ignore="HardcodedText">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/RegBtn"
+        android:layout_width="88dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="200sp"
+        android:layout_marginBottom="168dp"
+        android:clickable="true"
+        android:text="Register"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText,KeyboardInaccessibleWidget,RtlHardcoded" />
+
+</LinearLayout>
